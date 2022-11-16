@@ -1,1 +1,1 @@
-# docker-registry
+# Local Docker Registry Deployment guide
