@@ -47,7 +47,7 @@ docker compose up
 
 **If the registry is setup without certs and auth, then execute following steps to make your docker allow pulling/pushing from the local remote registry.**
 
-Note: This configuration is done on client side of docker installation, which is trying to access the registry.
+**Note:** This configuration is done on client side of docker installation, which is trying to access the registry.
 
 1.  In the cloned repo, navigate to docker-config directory and open the file "daemon.json" in any text editor.
 
