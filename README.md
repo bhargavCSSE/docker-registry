@@ -71,7 +71,7 @@ To push the image,
     1.  In the cloned repo, navigate to test-img directory.
 
     2.  To build the image, run following command,
-        docker build -t heartbeat-img:latest -t heatbeat-img:v1 .
+        docker build -t heartbeat-img:latest -t heartbeat-img:v1 .
 
     3.  Tag the image with registry address using,
         docker tag heartbeat:latest registry-address/heartbeat:latest
