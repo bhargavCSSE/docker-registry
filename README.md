@@ -16,7 +16,7 @@ Steps to setup without auth: <br>
         git clone https://github.com/bhargavCSSE/docker-registry.git
     
     2.  Run command:
-        docker compose up
+        cd docker-registry/ && docker compose up
 
 How to setup with auth: <br>
     
