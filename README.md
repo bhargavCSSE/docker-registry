@@ -1,4 +1,4 @@
-## Local Docker Registry Deployment guide
+## Local Docker Registry Deployment Guide
 
 By defualt, security features and auth are disabled while setting up local docker registry. <br>
 By default, the registry runs on localhost:5000
@@ -99,7 +99,7 @@ docker build -t heartbeat-img:latest -t heartbeat-img:v1 .
 ```
 docker tag heartbeat:latest registry-address/heartbeat:latest
 ```    
-4. (optional) if auth is enabled then run following command to login,
+4. **(optional)** If auth is enabled then run following command to login,
 ```
 docker login registry-address
 ```
