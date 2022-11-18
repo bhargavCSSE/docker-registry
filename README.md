@@ -10,7 +10,7 @@ Prerequisites: <br>
 2.  htpasswd - To generate authentication for users to access the local registry
     Note: You don't need htpasswd if you want to setup an insecure registry without auth.
 
-#### Steps to setup without auth: <br>
+### Steps to setup without auth: <br>
 
 1.  Clone the repo by executing,
 ```
@@ -24,7 +24,7 @@ docker compose up
 
 Note: Add -d flag to run it in detached mode.
     
-#### How to setup with auth: <br>
+### How to setup with auth: <br>
     
 1.  After cloning the repository, open docker-compose.yaml and uncomment lines 11-13.
 
@@ -81,7 +81,7 @@ curl -X GET http://registry-address/v2/_catalog
 
 ######## <br>
 
-How to use/test the registry using provided test image
+### How to use/test the registry using provided test image
 (Recommend running this test on a remote node that is connected to the node running the registry)
 
 Note: Replace "registry-address" with your local registry address in following commands.
