@@ -57,7 +57,9 @@ Note: This configuration is done on client side of docker installation, which is
     5.  Test connection with the registry using curl by executing,
         curl -X GET http://registry-address/v2/_catalog
 
-    6.  (optional) Test out your registry with provided test image
+    6. Restart docker.
+    
+    7.  (optional) Test out your registry with provided test image.
 
 ######## <br>
 
