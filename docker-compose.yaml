@@ -12,8 +12,8 @@ services:
     #  REGISTRY_AUTH_HTPASSWD_REALM: Registry
     #  REGISTRY_AUTH_HTPASSWD_PATH: /a2auth/registry.password
      REGISTRY_HTTP_SECRET: 47dDvsBvIIOAByyd6U4VdtH4tGSQi9hE
-     REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY: /main
+     REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY: /storage
      REGISTRY_STORAGE_DELETE_ENABLED: 'true'
    volumes:
-     - ./main:/main
+     - ./storage:/storage
      - ./a2auth:/a2auth

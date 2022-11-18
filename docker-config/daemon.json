@@ -1,4 +1,4 @@
 {
-    "insecure-registries":["10.10.30.93:5050"],
+    "insecure-registries":["registry-address"],
     "experimental" : false
 }
