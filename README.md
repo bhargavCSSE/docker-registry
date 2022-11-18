@@ -17,7 +17,8 @@ Steps to setup without auth: <br>
     
     2.  Navigate to the cloned repo and run following command:
         docker compose up
-
+    Note: Add -d flag to run it in detached mode.
+    
 How to setup with auth: <br>
     
     1.  After cloning the repository, open docker-compose.yaml and uncomment line 11-13
