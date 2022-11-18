@@ -4,6 +4,7 @@ services:
  registry:
    restart: always
    image: registry:2
+   container_name: docker-registry
    ports:
    # Host Port : Container Port
    - "5000:5000"
