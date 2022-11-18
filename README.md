@@ -5,9 +5,9 @@ By default, the registry runs on localhost:5000
 
 ### Prerequisites:
 
-1.  docker and docker-compose - To run the registry
+1.  **docker** and **docker-compose** - To run the registry
     
-2.  htpasswd - To generate authentication for users to access the local registry
+2.  **htpasswd** - To generate authentication for users to access the local registry
     **Note:** You don't need htpasswd if you want to setup an insecure registry without auth.
 
 ### Steps to setup without auth: <br>
