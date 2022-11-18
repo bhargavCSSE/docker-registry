@@ -3,7 +3,7 @@
 By defualt, security features and auth are disabled while setting up local docker registry. <br>
 By default, the registry runs on localhost:5000
 
-Prerequisites: <br>
+### Prerequisites:
 
 1.  docker and docker-compose - To run the registry
     
