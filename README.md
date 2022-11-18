@@ -44,6 +44,7 @@ Note: This configuration is done on client side of docker installation, which is
     2.  Copy the json content within {}
 
     3.  Go to your docker's daemon.json file and add the copied content.
+    
         Docker's daemon.json file location:
         Windows: 
             %userprofile%\.docker\daemon.json
