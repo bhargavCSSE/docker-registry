@@ -1,4 +1,4 @@
-### Local Docker Registry Deployment guide
+## Local Docker Registry Deployment guide
 
 By defualt, security features and auth are disabled while setting up local docker registry. <br>
 By default, the registry runs on localhost:5000
