@@ -67,6 +67,8 @@ Note: This configuration is done on client side of docker installation, which is
 How to use/test the registry using provided test image
 (Recommend running this test on a remote node that is connected to the node running the registry)
 
+Note: Replace "registry-address" with your local registry address in following commands.
+
 To push the image,
 
     1.  In the cloned repo, navigate to test-img directory.
