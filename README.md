@@ -120,4 +120,4 @@ To execute the image
 ```
 docker run -it registry-address/heartbeat:latest
 ```
-2. Press ```ctrl + c``` or ```cmd + c``` to exit out of it
+2. Press ```ctrl + c``` or ```cmd + c``` to exit out of it.
