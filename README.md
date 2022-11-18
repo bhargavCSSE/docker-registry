@@ -31,10 +31,11 @@ docker compose up
 2.  Create and navigate to ```a2auth``` directory in the cloned repo.
     
 3.  Run following command and replace "yourusername" with your desired username:
+
+    **Note**: Here **-c** flag creates registry.password file and adds user to it. Remove it from the command to add another user.
 ```
 htpasswd -Bc registry.password yourusername
 ```
-
 4.  Enter the desired password. Re-enter the password. This step completes adding a user to the registry.
     
 5.  Run the command:
