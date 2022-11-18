@@ -23,7 +23,7 @@ How to setup with auth: <br>
     
     1.  After cloning the repository, open docker-compose.yaml and uncomment line 11-13
 
-    2.  Navigate to "a2auth" directory in the cloned repo.
+    2.  Create and navigate to "a2auth" directory in the cloned repo.
     
     3.  Run following command and replace "yourusername" with your desired username:
         htpasswd -Bc registry.password yourusername
