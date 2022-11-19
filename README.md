@@ -96,7 +96,7 @@ To push the image,
 
 2.  To build the image, run following command,
 ```
-docker build -t heartbeat-img:latest -t heartbeat-img:v1 .
+docker build -t heartbeat:latest -t heartbeat:v1 .
 ```
 3.  Tag the image with registry address using,
 ```
