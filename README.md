@@ -29,7 +29,7 @@ docker compose up
     
 ### How to setup with auth: <br>
     
-1.  After cloning the repository, open docker-compose.yaml and uncomment lines 11-13.
+1.  After cloning the repository, open docker-compose.yaml and uncomment lines 12-14.
 
 2.  Create and navigate to ```a2auth``` directory in the cloned repo.
     
@@ -67,6 +67,8 @@ docker compose up
     Linux/Debian:
 
         /etc/docker/daemon.json
+    
+    **Note:** If daemon.json file is not present on your system then you can simply copy the provided daemon.json file to the above mentioned location.
 
 4.  In the copied content, replace "registry-address" with your local registry address. It should look something like below, <br>
     ```
